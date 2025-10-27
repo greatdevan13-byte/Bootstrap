@@ -1,0 +1,46 @@
+header{
+    background-color: #7bd192;
+    padding: 50px;
+    width: 100%;
+    float: left;
+    
+}
+nav{
+    float: left;
+    position: absolute;
+    right: 10px;
+    top: 50px;
+}
+a:link{
+    color: black;
+}
+a:hover{
+    color: red;
+    font-size: large;
+    text-decoration: double;
+    background-color:white;
+}
+a:visited{
+    color: blue;
+}
+h4{
+    font-family: monospace;
+    color:red;
+    text-decoration: overline;
+    background-color:black;
+}
+.col-lg-8{
+    background-color: #b1bf78;
+    padding: 10px;
+}
+p{
+    width: 40%;
+}
+footer{
+    margin: auto;
+    background-color: antiquewhite;
+    padding: 40px;
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-decoration: overline;
+}
