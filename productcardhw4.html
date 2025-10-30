@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Product Card</title>
+     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
+</head>
+
+<style>
+    .container{
+        background-color: #F96167;
+    }
+    body{
+        background-color: #F9E795;
+    }
+    .dropdown-item:hover{
+        background-color: #F96167;
+        font-size: large;
+        
+    }
+</style>
+<body>
+
+    <div class="container">
+        <h3 class="display-3" style="text-align: center;"><u>Product Cards</u></h3><br>
+
+        <div class="card-deck text-center">
+
+            <div class="card bg-warning">
+                <div class="card-header">ASUS EXPERTBOOK</div>
+                <div class="card-body">
+                    <img class="card-img-top" src="https://www.shutterstock.com/image-photo/jakarta-indonesia-february-6-2021-600nw-1910974624.jpg" alt="Laptop"><br><br><br>
+                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ex accusamus earum dolore excepturi quis laborum sapiente esse nisi voluptate et ab delectus eaque, </p><br>
+                    <a href="#" class="card-link">Read more</a><br><br>
+
+                    <div class="dropdown">
+                        <button type="button" class="btn btn-danger dropdown-toggle" data-toggle="dropdown">More Here</button>
+                        <div class="dropdown-menu">
+                            <a href="#" class="dropdown-item">Add to Wishlist</a>
+                             <a href="#" class="dropdown-item">Compare</a>
+                              <a href="#" class="dropdown-item">Report</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+             <div class="card bg-warning">
+                <div class="card-header">ONE PLUS NORD 2</div>
+                <div class="card-body">
+                    <img class="card-img-top" src="https://rukminim2.flixcart.com/image/480/640/xif0q/headphone/a/c/s/nord-wired-earphones-oneplus-original-imah3jhtykyev3zh.jpeg?q=90" alt="Headset"><br><br><br>
+                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ex accusamus earum dolore excepturi quis laborum sapiente esse nisi voluptate et ab delectus eaque, </p><br>
+                    <a href="#" class="card-link">Read more</a><br><br>
+
+                    <div class="dropdown">
+                        <button type="button" class="btn btn-danger dropdown-toggle" data-toggle="dropdown">More Here</button>
+                        <div class="dropdown-menu">
+                            <a href="#" class="dropdown-item">Add to Wishlist</a>
+                             <a href="#" class="dropdown-item">Compare</a>
+                              <a href="#" class="dropdown-item">Report</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="card bg-warning">
+                <div class="card-header">NOTHING PHONE</div>
+                <div class="card-body">
+                    <img class="card-img-top" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTVyRXFf6WwJna3AA7qTOnmLHfsnFS-3H5Jvg&s" alt="Phone"><br><br><br>
+                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ex accusamus earum dolore excepturi quis laborum sapiente esse nisi voluptate et ab delectus eaque, </p><br>
+                    <a href="#" class="card-link">Read more</a><br><br>
+
+                    <div class="dropdown">
+                        <button type="button" class="btn btn-danger dropdown-toggle" data-toggle="dropdown">More Here</button>
+                        <div class="dropdown-menu">
+                            <a href="#" class="dropdown-item">Add to Wishlist</a>
+                             <a href="#" class="dropdown-item">Compare</a>
+                              <a href="#" class="dropdown-item">Report</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+        <br><br>
+
+
+        
+<div id = "accordion">
+            <div class = "card">
+               <div class = "card-header">
+                  <a class = "card-link" data-toggle = "collapse" href = "#collapseOne">
+                     1.1. How do I connect the GlowMate Smart Lamp to my Wi-Fi network?
+
+
+                  </a>
+               </div>
+               <div id = "collapseOne" class = "collapse show" data-parent = "#accordion">
+                  <div class = "card-body">To connect your lamp, download the GlowMate app from the App Store or Google Play. Open the app, select “Add Device,” and follow the on-screen instructions to connect via your home Wi-Fi. Make sure your phone is connected to a 2.4GHz network during setup.</div>
+               </div>
+            </div>
+            <div class = "card">
+               <div class = "card-header">
+                  <a class = "collapsed card-link" data-toggle = "collapse" href = "#collapseTwo">
+                     2. Can I control the lamp with voice commands?
+
+
+                  </a>
+               </div>
+               <div id = "collapseTwo" class = "collapse" data-parent = "#accordion">
+                  <div class = "card-body">Yes! GlowMate is compatible with Alexa, Google Assistant, and Siri. Once linked through the app, you can use commands like “Turn on GlowMate,” “Set lamp to blue,” or “Dim the light to 50%.”</div>
+               </div>
+            </div>
+            <div class = "card">
+               <div class = "card-header">
+                  <a class = "collapsed card-link" data-toggle = "collapse" href = "#collapseThree">
+                     3. What is the “Focus Mode” and how does it work?
+
+
+                  </a>
+               </div>
+               <div id = "collapseThree" class = "collapse" data-parent = "#accordion">
+                  <div class = "card-body"> 3. What is the “Focus Mode” and how does it work?
+Focus Mode uses a preset lighting pattern designed to reduce eye strain and boost concentration. You can activate it through the app or by saying “Activate Focus Mode.” It gradually shifts between cool white and soft blue tones over a 90-minute cycle.
+</div>
+               </div>
+            </div>
+         </div>
+
+
+
+
+
+
+
+
+    </div>
+    
+</body>
+</html>
