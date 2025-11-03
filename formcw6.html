@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+      <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
+
+  <style>
+    .container{
+        background-color: blanchedalmond;
+        text-align: center;
+    }
+    #butn{
+        bottom:0%;
+        
+        
+    }
+    h2{
+        background-color: cadetblue;
+        padding: 20px;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+    }
+
+    .dropdown-item:hover{
+        background-color: yellow
+
+    }
+    
+    
+
+  </style>
+</head>
+<body>
+    <div class="container ">
+        <h2 style="text-align: center;"><u>FORM</u></h2><br><br>
+        <form class="form-inline" action="/action_page.php">
+    <label for="fname" class="mb-2 mr-sm-2">Username:</label>
+    <input type="text" class="form-control mb-2 mr-sm-2" id="fname" placeholder="Enter Username" name="fname">
+    <label for="email" class="mb-2 mr-sm-2">Email:</label>
+    <input type="text" class="form-control mb-2 mr-sm-2" id="email" placeholder="Enter email" name="email">
+    
+</form>
+<br>
+
+<div class="form-group">
+  <label for="feedback">Feedback:</label>
+  <textarea class="form-control" rows="3" id="feedback" placeholder="write here"></textarea>
+</div><br>
+
+<div class ="dropdown dropright">
+<button type="button" class="btn btn-info dropdown-toggle" data-toggle="dropdown">How did you know abt us</button>
+<div class="dropdown-menu">
+<a class="dropdown-item" href="#">Friends</a>
+<div class="dropdown-divider"></div>
+<a class="dropdown-item" href="#">Instagram</a>
+<div class="dropdown-divider"></div>
+<a class="dropdown-item" href="#">Facebook</a>
+<div class="dropdown-divider"></div>
+</div>
+</div><br><br>
+
+<h5><u>Please rate us</u></h5><br>
+
+<div class="form-check-inline active ">
+  <label class="form-check-label">
+    <input type="radio" class="form-check-input "name="optradio">
+  </label>
+</div>
+<div class="form-check-inline">
+  <label class="form-check-label">
+    <input type="radio" class="form-check-input"name="optradio" >
+  </label>
+</div>
+<div class="form-check-inline ">
+  <label class="form-check-label">
+    <input type="radio" class="form-check-input" name="optradio" >
+  </label>
+</div>
+<div class="form-check-inline ">
+  <label class="form-check-label">
+    <input type="radio" class="form-check-input" name="optradio" >
+  </label>
+</div>
+<div class="form-check-inline ">
+  <label class="form-check-label">
+    <input type="radio" class="form-check-input" name="optradio" >
+  </label>
+</div><br><br>
+
+<button type="button" id="butn" class="btn btn-success ">Submit</button>
+
+
+
+
+
+
+
+
+    </div>
+    
+</body>
+</html>
